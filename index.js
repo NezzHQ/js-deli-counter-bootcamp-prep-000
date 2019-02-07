@@ -1,7 +1,7 @@
-var katzDeline = [];
-
-function takeANumber(katzDeline, name) {
-  katzDeline.push(`${name}`);
+var ticketMachine = [0, 1, 2, 3, 4,5, 6, 7];
+function ticketMachine() {
+  ticketMachine.push(`${number}`);
+  
   return(`Welcome, ${name}. You are number ${katzDeline.length} in line.`);
 }
 
